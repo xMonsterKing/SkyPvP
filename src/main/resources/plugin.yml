@@ -1,0 +1,86 @@
+name: SkyPvP
+version: '${project.version}'
+main: net.pixelplays.skypvp.SkyPvP
+api-version: 1.17
+depend:
+  - ProtocolLib
+
+commands:
+  bank:
+    description: opens the bank gui to deposit or withdraw your coins
+  blocks:
+    description: opens the gui where you can easily pick some of useful build blocks for your plot.
+  broadcast:
+    description: send a message server sided to all the players
+    aliases:
+      - bc
+  build:
+    description: gives the player the ability to build in the spawn area to change some things
+    aliases:
+      - bauen
+  chatclear:
+    description: clear the chat for all players
+    aliases:
+      - cc
+  coins:
+    description: see how much money you have ingame
+    aliases:
+      - tokens
+      - money
+      - münzen
+      - geld
+      - taler
+  crates:
+    description: opens a gui where you can pick one of the created crates and give them to other players or use it for other things
+  feed:
+    description: let your player set his food scale to 20!
+  fly:
+    description: gives the player the ability to fly
+    aliases:
+      - fliegen
+  gamemode:
+    description: set the gamemode of a player to one of the three values [survival, creative, adventure, spectator]
+    aliases:
+      - gm
+      - playmode
+  globalmute:
+    description: deactivates the chat for non team players
+    aliases:
+      - gmute
+  invsee:
+    description: look in another players inventory
+  message:
+    description: send private messages to another player
+    aliases:
+      - msg
+  reload:
+    description: disables and enables your plugin, but can occour errors on your plugin.
+  reply:
+    description: write a quick reply back to a player
+    aliases:
+      - r
+  reward:
+    description: claim your daily reward
+  settings:
+    description: Opens the Settings Menu where you can setup some animations, and other stuff
+  setup:
+    description: command to set up locations, npc positions, etc.
+  spawn:
+    description: teleport the player back to the spawn location
+  speed:
+    description: command to set your flyspeed if you are flying or your walkspeed if you are walking.
+  stack:
+    description: stack your items in your inventory to the maximum stack size
+    aliases:
+      - stackitems
+  trash:
+    description: opens a trash inventory where you can throw in your trash items
+    aliases:
+      - trashcan
+      - müll
+      - mülleimer
+      - mülltonne
+  verlosung:
+    description: 1
+  warp:
+    description: opens a gui with the different warp locations
